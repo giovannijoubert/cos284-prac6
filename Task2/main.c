@@ -35,7 +35,7 @@ int main(int argc, char *argv[]) {
 	trieInsert(a, "dog");
 	trieInsert(a, "dolphine");
 	
-	triePrint(a, 0);
+	triePrint(a, 0); 
 	
 	/* Output: 
 	

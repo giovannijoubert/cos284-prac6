@@ -16,5 +16,6 @@ int main(int argc, char *argv[]) {
 	for (int i = 0; i < 26; i++)
 		if (a->children[i] != 0 || a->isWord[i] != 0) printf("fail");
 	
+	
 	return 0;
 }

@@ -1,5 +1,5 @@
 all: main.o alloc.o
-	gcc main.o alloc.o -o main
+	gcc -no-pie main.o alloc.o -o main
 
 main.o: main.c
 	gcc -c main.c
